@@ -56,6 +56,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-relative-links
+  
+relative_links:
+  enabled:     true
+  collections: false
 
 author:
   name   : "kolja boldyrev"
