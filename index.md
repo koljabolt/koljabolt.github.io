@@ -7,7 +7,7 @@ author_profile: true
 ---
 
 ##2D ART [2d.md](2d.md)
-[![2d art page](assets/images/2d.jpg)]([text](_pages/2d.md))
+[![2d art page](assets/images/2d.jpg)]([text](https://koljabolt.github.io/2d/))
 
 ##ANIMATION
 ![animation page](assets/images/ani.jpg)
