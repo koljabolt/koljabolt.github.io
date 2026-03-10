@@ -6,11 +6,11 @@ layout: single
 author_profile: true
 ---
 
-##2D ART
-[![2d art page](assets/images/2d.jpg)](2d.md)
+##2D ART [2d.md](2d.md)
+![2d art page](assets/images/2d.jpg)
 
 ##ANIMATION
-[![animation page](assets/images/ani.jpg)](_pages/ani.md)
+![animation page](assets/images/ani.jpg)
 
 ##PROJECTS
-[![projects page](assets/images/prj.jpg)](_pages/pro.md)
+![projects page](assets/images/prj.jpg)
