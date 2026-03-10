@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "kolja boldyrev"
   avatar : "/assets/images/avatar.JPG"
-  bio    : <p>"2d artist"</p> <p>"storyboard artist"</p> <p>"writer"</p>
+  bio    : "<p>2d artist<br> storyboard artist<br> writer</p>"
   links:
     # - label: "Website"
     #  icon: "fas fa-fw fa-link"
