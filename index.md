@@ -6,4 +6,4 @@ layout: single
 author_profile: true
 ---
 
-Hey, I'm an artist specializing in storyboarding and character writing. I can help design and create the character, quickly sketch out ideas, manage writing, make a storyboard or animatic.  
+<p>Hey, I'm an artist specializing in storyboarding and character writing.</p> I can help design and create the character, quickly sketch out ideas, manage writing, make a storyboard or animatic.  
