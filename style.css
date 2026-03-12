@@ -14,5 +14,8 @@ h1 {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 50px;
     text-align: center;
-    border-style: none;
+    outline-style: ridge;
+    outline-color: orchid;
+    outline-width: 5px;
+    padding-top: 150px;
 }
