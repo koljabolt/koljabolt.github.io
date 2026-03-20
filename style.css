@@ -1,12 +1,6 @@
 body{
     background: #dde1e5;
     background-image: url("images/bg text 01.png");
-    font-family: "Helvetica Neue Light", sans-serif;
-    color:salmon;
-    font-size: 25px;
-    border-style: none;
-    border: 0px;
-    padding: 20px;
 }
 
 h1 {
