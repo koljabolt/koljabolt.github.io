@@ -9,6 +9,12 @@ body {
   font-family: "Helvetica Neue Light", sans-serif;
 }
 
+.header {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 40px;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -43,7 +49,7 @@ body {
   width: 10px;
   height: 10px;
   right: -17px;
-  background-color: #f5feff;
+  background-color: #21e1f6;
   top: 15px;
   z-index: 1;
 }
@@ -67,9 +73,9 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid rgb(223, 50, 50);
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent rgb(32, 193, 102);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -81,9 +87,9 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid rgb(247, 75, 124);
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent rgb(244, 15, 15) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -94,7 +100,7 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #f5feff;
+  background-color: #afb7bf;
   position: relative;
   border-radius: 6px;
  }
@@ -116,7 +122,7 @@ body {
 /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid rgb(184, 255, 18);
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
