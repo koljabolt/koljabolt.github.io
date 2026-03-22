@@ -1,4 +1,4 @@
-.dropbtn {
+.idropbtn {
     display: flex;
     background-image: url("images/menu.png");
     color: white;
@@ -8,11 +8,11 @@
     cursor: pointer;
 }
 
-.dropdown {
+.idropdown {
     position: relative;
 }
 
-.dropdown-content {
+.idropdown-content {
 display: none;
 position: absolute;
 background-color: #f9f9f9;
@@ -20,22 +20,22 @@ min-width: 200px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
+.idropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {
+.idropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
+.idropdown:hover .idropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.idropdown:hover .idropbtn {
     background-image: url("images/menu.png");
     opacity: 0.8;
     background-color: #515151;
