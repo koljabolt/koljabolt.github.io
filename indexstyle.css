@@ -119,7 +119,7 @@ img {
 
 /* Style the image as a button */
 .dropbtn {
-    width: 200px;
+    width: 100px;
     height: auto;
     border-radius: 25%; 
     cursor: pointer;
@@ -130,7 +130,7 @@ img {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 200px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -143,7 +143,7 @@ img {
     display: block;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 14px;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Show content on hover */
