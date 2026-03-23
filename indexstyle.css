@@ -1,14 +1,126 @@
-* {
-  box-sizing: border-box;
+body{
+background: #dde1e5;
+background-image: url("images/bg text 01.png");
 }
 
-/* Set a background color */
-body {
-  background: #afb7bf;
-  background-image: url("images/bg text 01.png");
-  font-family: "Helvetica Neue Light", sans-serif;
+.wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        max-height: auto;
+        text-align: center;
 }
 
+h1 {
+    color:  salmon;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: olive;
+    font-family: "Helvetica Neue Light", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    outline-style: none;
+    padding: 2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.griddy {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
+    gap: 1px;
+    padding: 20%;
+    border: 1px;
+    grid-template-areas: 
+    "topleft top1 top2 top3 topright"
+    "midleft mid1 mid2 mid3 midright"
+    "picleft pic1 piccenter pic2 picright"
+    "footer footer footer footer footer";
+}
+.griddy div {
+    padding: 10px;
+}
+.griddy div.top1 {
+    grid-area: top1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+.griddy div.top2 {
+    grid-area: top2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+.griddy div.top3 {
+    grid-area: top3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+.griddy div.mid1 {
+    grid-area: mid1;
+    text-align: center;
+    height: auto;
+}
+.griddy div.mid2 {
+    grid-area: mid2;
+    text-align: center;
+    height: auto;
+}
+.griddy div.mid3 {
+    grid-area: mid3;
+    text-align: center;
+    height: auto;
+}
+.griddy div.midright {
+    grid-area: midright;
+    text-align: center;
+    height: auto;
+}    
+.griddy div.midcenter {
+    grid-area: midcenter;
+    align-self: center;
+    justify-self: center;
+    padding: 20%;
+    max-width: 100%;
+    height: auto;
+}
+.griddy div.pic1 {
+    grid-area: pic1;
+    align-self: center;
+    justify-self: center;
+    padding: 20%;
+    max-width: 100%;
+    height: auto;
+}
+.griddy div.pic2 {
+    grid-area: pic2;
+    align-self: center;
+    justify-self: center;
+    padding: 20%;
+    max-width: 100%;
+    height: auto;
+}
+.griddy div.footer {
+    grid-area: footer;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 10 px;
+    padding-top: 50%;
+}
 .idropbtn {
     display: flex;
     background-image: url("images/menu.png");
