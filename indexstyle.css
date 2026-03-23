@@ -10,7 +10,7 @@ h1 {
 h2 {
     color: olive;
     font-family: "Helvetica Neue Light", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     outline-style: none;
     padding: 2px;
@@ -35,24 +35,24 @@ img {
 .griddy div {
     padding: 10px;
 }
-.griddy div.top1 {
-    grid-area: top1;
+.griddy div.topleft {
+    grid-area: topleft;
     align-items: center;
     justify-content: center;
     text-align: center;
     max-width: 100%;
     height: auto;
 }
-.griddy div.top2 {
-    grid-area: top2;
+.griddy div.topcenter {
+    grid-area: topcenter;
     align-items: center;
     justify-content: center;
     text-align: center;
     max-width: 100%;
     height: auto;
 }
-.griddy div.top3 {
-    grid-area: top3;
+.griddy div.topright {
+    grid-area: topright;
     align-items: center;
     justify-content: center;
     text-align: center;
