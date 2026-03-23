@@ -119,10 +119,9 @@ img {
 
 /* Style the image as a button */
 .dropbtn {
-    display: flex;
     width: auto;
     height: 100px;
-    border-radius: none; 
+    border-radius: 10%; 
     cursor: pointer;
 }
 
