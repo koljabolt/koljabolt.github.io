@@ -159,7 +159,7 @@ img {
 /*icons*/
 .iconbox {
     display: flex;
-    width: 300 px;
-    padding-top: 20px;
+    width: 300px;
+    padding-top: 50px;
     justify-content: space-evenly;
 }
