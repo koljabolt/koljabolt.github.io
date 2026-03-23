@@ -162,7 +162,6 @@ img {
     padding: 30px;
     margin: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .row {
