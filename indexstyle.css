@@ -37,11 +37,7 @@ img {
 }
 .griddy div.topleft {
     grid-area: topleft;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
-    height: auto;
+
 }
 .griddy div.topcenter {
     grid-area: topcenter;
@@ -53,11 +49,6 @@ img {
 }
 .griddy div.topright {
     grid-area: topright;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
-    height: auto;
 }
 .griddy div.mid1 {
     grid-area: mid1;
