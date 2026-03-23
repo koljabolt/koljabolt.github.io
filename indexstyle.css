@@ -119,16 +119,16 @@ img {
 
 /* Style the image as a button */
 .dropbtn {
-    width: auto;
-    height: 100px;
-    border-radius: 10%; 
+    width: 200px;
+    height: auto;
+    border-radius: 25%; 
     cursor: pointer;
 }
 
 /* Hidden dropdown content */
 .dropdown-content {
     display: none;
-    padding-top: 100px;
+    padding-top: 10px;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 200px;
