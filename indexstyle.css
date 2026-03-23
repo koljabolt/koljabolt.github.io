@@ -144,6 +144,7 @@ img {
     display: block;
     font-family: "Helvetica Neue", sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 
 /* Show content on hover */
