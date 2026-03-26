@@ -6,6 +6,7 @@ h1 {
     color:  rgb(106, 106, 106);
     font-family: "Helvetica Neue", sans-serif;
     font-size: 40px;
+    font-stretch: condensed;
 }
 h2 {
     color: rgb(124, 124, 124);
@@ -14,6 +15,7 @@ h2 {
     text-align: center;
     outline-style: none;
     padding: 2px;
+    font-weight: lighter;
 }
 img {
     max-width: 100%;
