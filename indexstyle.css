@@ -39,22 +39,8 @@ img {
     padding: 5px;
 }
 
-.griddy div.t1 {
-    grid-area: t1;
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
-    height: auto;
-}
 .griddy div.t2 {
     grid-area: t2;
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
-    height: auto;
-}
-.griddy div.t3 {
-    grid-area: t3;
     justify-content: center;
     text-align: center;
     max-width: 100%;
@@ -78,25 +64,13 @@ img {
     text-align: center;
     width: 100%;
 }
-
-.griddy div.b1 {
-    grid-area: b1;
-    text-align: center;
-    justify-content: center;
-    height: auto;
-} 
+ 
 .griddy div.b2 {
     grid-area: b2;
     text-align: center;
     justify-content: center;
     height: auto;
-} 
-.griddy div.b3 {
-    grid-area: b3;
-    text-align: center;
-    justify-content: center;
-    height: auto;
-} 
+}  
 
 .griddy div.f2 {
     grid-area: f2;
