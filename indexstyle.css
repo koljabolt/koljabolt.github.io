@@ -68,19 +68,18 @@ img {
 }    
 .griddy div.pic1 {
     grid-area: pic1;
-    align-self: right;
-    justify-self: center;
-    padding: 20%;
+    align-self: center;
+    justify-self: right;
+    padding: 5px;
     width: 100%;
     height: auto;
 }
 .griddy div.pic2 {
     grid-area: pic2;
-    align-self: left;
-    justify-self: center;
-    padding: 20%;
+    align-self: center;
+    justify-self: left
+    padding: 5px;
     width: 100%;
-    height: auto;
 }
 .griddy div.footer {
     grid-area: footer;
