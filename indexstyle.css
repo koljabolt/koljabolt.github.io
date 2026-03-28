@@ -75,6 +75,13 @@ img {
     width: 100%;
 }
 
+.griddy div.b2 {
+    grid-area: b2;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+} 
+
 .griddy div.f2 {
     grid-area: f2;
     text-align: center;
