@@ -65,14 +65,13 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background: red;
 }
 .griddy div.m3 a {
   display: block;
 }
 .griddy div.m3 img{
     display: block;
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 
