@@ -58,7 +58,11 @@ img {
     align-items: center;
     text-align: center;
     width: 100%;
-    display: inline;
+    display: inline-block;
+}
+
+.griddy div.pics {
+    width: 100%;
 }
  
 .griddy div.b2 {
