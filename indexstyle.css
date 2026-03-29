@@ -55,13 +55,14 @@ img {
 } 
 .griddy div.m3 {
     grid-area: m3;
-    align-items: center;
-    text-align: center;
-    width: 100%;
     display: flex;
+    width: auto;
+    height: auto;
 }
+
 .griddy div.m3 img{
     display: block;
+    width: 100px;
 }
 
 
