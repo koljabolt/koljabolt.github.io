@@ -58,11 +58,10 @@ h2 {
 .griddy div.m3 {
     grid-area: m3;
     display: flex;
-    height: auto;
 }
 .griddy div.m3 img{
     display: block;
-    height: 200%;
+    height: 100%;
 }
 .griddy div.b2 {
     grid-area: b2;
