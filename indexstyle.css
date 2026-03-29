@@ -56,7 +56,7 @@ h2 {
     grid-area: b2;
     text-align: center;
     justify-content: center;
-    height: auto;
+    height: 40px;
 }  
 
 .griddy div.m3 {
