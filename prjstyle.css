@@ -30,6 +30,16 @@ h2 {
     padding: 2px;
     font-weight: lighter;
 }
+h3 {
+    color: rgb(74, 74, 74);
+    font-family: "Helvetica Neue Light", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    outline-style: none;
+    padding: 2px;
+    font-weight: lighter;
+    font-stretch: condensed;
+}
 
 /* Container holding the image and menu */
 .dropdown {
